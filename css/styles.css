@@ -397,7 +397,7 @@ ol {
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
 }
 
 .team-card-cont {
@@ -454,16 +454,13 @@ ol {
 
 .icon-link:hover,
 .icon-link:focus {
-    background-color: #404bbf;
+    background-color: #404bbf;  
 }
 
 .icon-socialmedia {
     width: 16px;
     height: 16px;
     fill: #f4f4fd;
-    
-    
-
 } 
 
 /* .team-list-socialmedia {
@@ -548,6 +545,7 @@ ol {
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+    
 }
 
 .logo-style-footer {
@@ -558,6 +556,7 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+   
 }
 
 .footer-text {
@@ -568,6 +567,43 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.footer .container {
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+    margin-right: 120px;
+}
+
+.footer-socmedia {
+    
+}
+
+.footer-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+    background-color: #31D0AA;
+}
+
+.icon-list {}
+
+.icon-item {}
+
+.icon-link {
+    
+}
+
+.icon-socialmedia {
+    
 }
 
 /* #endregion  === Footer === */
