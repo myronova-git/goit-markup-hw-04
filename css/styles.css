@@ -184,16 +184,20 @@ ol {
 
 /* #endregion Header */
 
-
 /* #region === Hero === */
 .hero {
-    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), 
+    url(/images/hero/people-office\ 1.jpg);
+    background-repeat: no-repeat;
     height: 600px;
+    width: 1440px;
     display: flex;
-    align-items: center;
-    padding: 188px 0
+    padding: 188px 0;
+    background-size: auto;
+    margin: auto;
 }
-
 
 .hero-title {
     display: flex;
@@ -427,6 +431,8 @@ ol {
 }
 
 .portfolio-item {
+    /* position: relative; */
+    cursor: pointer;
 }
 
 .portfolio-item-title {
@@ -455,6 +461,34 @@ ol {
     height: 120px;
 }
 
+.marketing-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.owerlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    width: 100%;
+    height: 100%;
+
+    padding: 32px;
+    padding-top: 40px;
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    background: #4d5ae5;
+
+    transition: transform 500ms ease;
+}
+
+.portfolio-item:hover .owerlay {
+    transform: translateY(0);
+}
 
 /* #endregion  === Section 3 "Portfolio" === */
 
@@ -466,6 +500,9 @@ ol {
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 1440px;
+    height: 312px;
+    margin: auto;
     }
 
 .logo-footer {
@@ -485,6 +522,7 @@ ol {
    
 }
 
+
 .footer-text {
     display: flex;
     max-width: 264px;
@@ -493,11 +531,12 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    /* margin: 156px, auto; */
 }
 
-.footer.container {
+.footer .container {
     display: flex;
-    margin-left: 0;
+    margin-left: 156px;
     flex-direction: column;
     margin-right: 120px;
 }
