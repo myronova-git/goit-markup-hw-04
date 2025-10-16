@@ -248,6 +248,11 @@ ol {
 
 /* #region === Section 1 "Advantages" === */
 
+.advantages .container {
+    align-items: center;
+    justify-content:
+}
+
 .advantages {
     padding-top: 120px;
     padding-bottom: 120px;
