@@ -570,6 +570,10 @@ ol {
 
 .footer-cont {
     display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+    gap: 16px;
+
 }
 
 .footer-socmedia {
@@ -581,7 +585,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    /* margin-bottom: 16px; */
+    margin-bottom: 16px;
 }
 
 .icon-footer:hover,
@@ -598,7 +602,9 @@ ol {
 
 .icon-item {}
 
-.icon-link {}
+.icon-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .icon-socialmedia {}
 
