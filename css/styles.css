@@ -568,6 +568,10 @@ ol {
     margin-right: 120px;
 }
 
+.footer-cont {
+    display: flex;
+}
+
 .footer-socmedia {
 }
 
