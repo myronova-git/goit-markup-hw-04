@@ -568,7 +568,9 @@ ol {
     margin-right: 120px;
 }
 
-.footer-socmedia {}
+.footer-socmedia {
+    display: flex;
+}
 
 .footer-title {
     font-weight: 500;
