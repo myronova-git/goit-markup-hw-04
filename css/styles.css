@@ -192,7 +192,7 @@ ol {
 
 /* #endregion Header */
 
-/* #region === Hero === */
+/* #region ===Section 1 Hero === */
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
     background-repeat: no-repeat;
@@ -244,10 +244,10 @@ ol {
     background-color: #404bbf;
 }
 
-/* #endregion  === Hero === */
+/* #endregion  ===Section 1 Hero === */
 
 
-/* #region === Section 1 "Advantages" === */
+/* #region === Section 2 "Advantages" === */
 
 .container {
     align-items: center;
@@ -317,10 +317,10 @@ ol {
     margin-bottom: 8px;
 }
 
-/* #endregion  === Section 1 "Advantages" === */
+/* #endregion  === Section 2 "Advantages" === */
 
 
-/* #region === Section 2 "Team"  === */
+/* #region === Section 3 "Team"  === */
 
 .team {
     background-color: #F4F4FD;
@@ -419,10 +419,10 @@ ol {
     fill: #f4f4fd;
 }
 
-/* #endregion  === Section 2 "Team" === */
+/* #endregion  === Section 3 "Team" === */
 
 
-/* #region === Section 3 "Portfolio" === */
+/* #region === Section 4 "Portfolio" === */
 
 
 
@@ -517,7 +517,7 @@ ol {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-/* #endregion  === Section 3 "Portfolio" === */
+/* #endregion  === Section 4 "Portfolio" === */
 
 
 /* #region === Footer === */
