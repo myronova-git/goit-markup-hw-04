@@ -64,8 +64,6 @@ ol {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    align-items: center;
-    justify-content: center;
 }
 
 /* #region === Header === */
@@ -182,7 +180,7 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item-link:hover,
@@ -244,15 +242,15 @@ ol {
     background-color: #404bbf;
 }
 
+.header-header .container {
+    display: flex;
+    align-items: center;
+}
 /* #endregion  ===Section 1 Hero === */
 
 
 /* #region === Section 2 "Advantages" === */
 
-.container {
-    align-items: center;
-    justify-content: center;
-}
 
 .advantages {
 
@@ -306,8 +304,8 @@ ol {
 }
 
 .logo-border {
-    width: 64px;
-    height: 64px;
+    align-items: center;
+    justify-content: center;
     display: flex;
     border: 1px solid #8e8f99;
     border-radius: 4px;
@@ -453,6 +451,7 @@ ol {
 .portfolio-item {
     /* position: relative; */
     cursor: pointer;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-title {
@@ -496,8 +495,7 @@ ol {
     width: 100%;
     height: 100%;
 
-    padding: 32px;
-    padding-top: 40px;
+    padding: 40px 32px;
     color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
@@ -505,7 +503,7 @@ ol {
 
     background: #4d5ae5;
 
-    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover .owerlay {
@@ -523,13 +521,9 @@ ol {
 /* #region === Footer === */
 
 .footer {
-    display: flex;
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 1440px;
-    height: 312px;
-    margin: auto;
 }
 
 .logo-footer {
@@ -561,19 +555,15 @@ ol {
     /* margin: 156px auto; */
 }
 
-.footer .container {
-    /* display: flex; */
-    margin-left: 156px;
-    flex-direction: column;
-    margin-right: 120px;
-}
 
 .footer-cont {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
-    gap: 16px;
 
+}
+
+.footer-wrap {
+    margin-right: 120px;
 }
 
 .footer-socmedia {
@@ -598,7 +588,9 @@ ol {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-list {}
+.footer .icon-list {
+    gap: 16px;
+}
 
 .icon-item {}
 
