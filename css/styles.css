@@ -112,7 +112,7 @@ ol {
 }
 
 .nav-item {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .nav-item-link {
@@ -125,7 +125,7 @@ ol {
     display: block;
     padding: 24px 0;
 
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-item-link.current {
