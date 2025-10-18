@@ -109,7 +109,6 @@ ol {
     display: flex;
     align-items: center;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
